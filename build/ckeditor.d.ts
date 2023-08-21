@@ -20,7 +20,7 @@ import { MediaEmbed, MediaEmbedToolbar } from '@ckeditor/ckeditor5-media-embed';
 import { Paragraph } from '@ckeditor/ckeditor5-paragraph';
 import { SourceEditing } from '@ckeditor/ckeditor5-source-editing';
 declare class Editor extends ClassicEditor {
-    static builtinPlugins: (typeof Alignment | typeof Autoformat | typeof Bold | typeof Italic | typeof Strikethrough | typeof Underline | typeof BlockQuote | typeof Essentials | typeof FontColor | typeof FontFamily | typeof FontSize | typeof Paragraph | typeof Heading | typeof Highlight | typeof HorizontalLine | typeof AutoImage | typeof Image | typeof ImageCaption | typeof ImageInsert | typeof ImageResize | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof Indent | typeof IndentBlock | typeof AutoLink | typeof Link | typeof LinkImage | typeof List | typeof MediaEmbed | typeof MediaEmbedToolbar | typeof SourceEditing)[];
+    static builtinPlugins: (typeof Alignment | typeof AutoImage | typeof AutoLink | typeof Autoformat | typeof BlockQuote | typeof Bold | typeof Essentials | typeof FontColor | typeof FontFamily | typeof FontSize | typeof Heading | typeof Highlight | typeof HorizontalLine | typeof Image | typeof ImageCaption | typeof ImageInsert | typeof ImageResize | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof Indent | typeof IndentBlock | typeof Italic | typeof Link | typeof LinkImage | typeof List | typeof MediaEmbed | typeof MediaEmbedToolbar | typeof Paragraph | typeof SourceEditing | typeof Strikethrough | typeof Underline)[];
     static defaultConfig: {
         toolbar: {
             items: string[];
